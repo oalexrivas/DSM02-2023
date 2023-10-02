@@ -14,6 +14,6 @@ Este repositorio está licenciado bajo Creative Commons Attribution (CC BY), lo 
 
 #### Links:
 
-* [Documento Fase 1](/Proyecto DSM.pdf)
+* [Documento Fase 1](/Proyecto%20DSM.pdf)
 * [Trello](https://trello.com/invite/b/XHO4NTPK/ATTIce2781888df20127ef27f7bbfbcbf056C43BDD52/dsm-02-2023)
 * [Figma](https://www.figma.com/file/DTRmVr9qnF1M5CAglIq5Zp/DSM?type=design&node-id=0%3A1&mode=design&t=N3h1ui3hL6HY2zfU-1)
