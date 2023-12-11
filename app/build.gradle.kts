@@ -66,6 +66,7 @@ dependencies {
     implementation("com.airbnb.android:lottie:4.2.1")
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-database")
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
