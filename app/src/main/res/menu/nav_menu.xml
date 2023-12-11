@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/nav_doctores"
+            android:icon="@drawable/nav_doctor"
+            android:title="Doctores"/>
+        <item
+            android:id="@+id/nav_pacientes"
+            android:icon="@drawable/nav_paciente"
+            android:title="Pacientes"/>
+        <item
+            android:id="@+id/nav_citas"
+            android:icon="@drawable/nav_citas"
+            android:title="Citas"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

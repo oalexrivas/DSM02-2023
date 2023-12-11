@@ -77,20 +77,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/googleSignInButton"
-        android:layout_width="217dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/forgotPasswordTextView"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:autoSizeMinTextSize="10dp"
-        android:background="@color/white"
-        android:drawableStart="@drawable/signin_google"
-        android:text="INICIAR CON GOOGLE"
-        android:textColor="@color/black"/>
+
 
     <TextView
         android:id="@+id/signupTextView"
@@ -98,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="¿No tienes cuenta?"
         android:textColor="@color/white"
-        android:layout_below="@id/googleSignInButton"
+        android:layout_below="@id/forgotPasswordTextView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 

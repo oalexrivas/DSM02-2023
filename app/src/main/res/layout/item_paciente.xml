@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Header con fondo verde y texto blanco -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Nombre y código del Paciente -->
+        <TextView
+            android:id="@+id/pacienteNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="Dr. Bryan Guevara" />
+
+        <TextView
+            android:id="@+id/pacienteCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="GC2204" />
+    </LinearLayout>
+
+    <!-- Contenedor para la imagen y los botones -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:paddingTop="8dp">
+
+        <!-- Imagen del Paciente -->
+        <ImageView
+            android:id="@+id/pacienteImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/logo_user" /> <!-- Reemplaza con tu imagen de paciente -->
+
+        <!-- Botón Ver Información -->
+        <Button
+            android:id="@+id/viewInfoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="90dp"
+            android:layout_toEndOf="@id/pacienteImageView"
+            android:backgroundTint="@color/black"
+            android:text="Ver Información"
+            android:textSize="10dp" />
+
+        <!-- Botón Ver Historial Citas -->
+
+        <Button
+            android:id="@+id/btnEditPaciente"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="90dp"
+            android:layout_toEndOf="@id/pacienteImageView"
+            android:background="@drawable/edit"
+            android:backgroundTint="@color/black"
+            android:textSize="10dp"/>
+
+        <Button
+            android:id="@+id/viewHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewInfoButton"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="90dp"
+            android:layout_toEndOf="@id/pacienteImageView"
+            android:backgroundTint="@color/black"
+            android:text="Ver Historial Citas"
+            android:textSize="10dp" />
+    </RelativeLayout>
+</LinearLayout>
